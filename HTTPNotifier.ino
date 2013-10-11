@@ -5,9 +5,12 @@
 #include <SPI.h>        
 #include <Ethernet.h>
 
+//Including my connector layout here so I don't forget (please ignore)
+// 9V: Blue, GND: Blue Stripe, Red: Brown, Green: Brown Stripe, Blue: Green, Buzzer: Green Stripe
+
 #define LED_PIN_RED 2
-#define LED_PIN_GREEN 5
-#define LED_PIN_BLUE 3
+#define LED_PIN_GREEN 3
+#define LED_PIN_BLUE 5
 #define BUZZER_PIN 6
 
 int ledState = 0;
